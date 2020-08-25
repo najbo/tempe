@@ -1,23 +1,19 @@
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+/*
+!/.gitignore
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+###############################
+# Un-ignore the affected subdirectory
+!/plugins/
+# Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
+/plugins/*
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+!/plugins/digart/
+/plugins/digart/*
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+!/plugins/digart/batiment/
+###############################
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+# Dossier Thèmes
+!/themes/
+/themes/*
+!/themes/demo/

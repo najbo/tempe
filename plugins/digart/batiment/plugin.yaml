@@ -1,0 +1,6 @@
+plugin:
+    name: 'Gestion des bâtiments'
+    description: 'digart.batiment::lang.plugin.description'
+    author: Digital-Artisan
+    icon: oc-icon-home
+    homepage: ''

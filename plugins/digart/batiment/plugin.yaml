@@ -1,6 +1,6 @@
 plugin:
     name: 'Gestion des bâtiments'
-    description: 'digart.batiment::lang.plugin.description'
+    description: 'Gestion du patrimoine et gestion des incidents'
     author: Digital-Artisan
     icon: oc-icon-home
     homepage: ''

@@ -1,0 +1,10 @@
+name: Appartements
+form: $/digart/batiment/models/appartement/fields.yaml
+modelClass: Digart\Batiment\Models\Appartement
+defaultRedirect: digart/batiment/appartements
+create:
+    redirect: 'digart/batiment/appartements/update/:id'
+    redirectClose: digart/batiment/appartements
+update:
+    redirect: digart/batiment/appartements
+    redirectClose: digart/batiment/appartements

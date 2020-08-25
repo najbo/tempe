@@ -1,2 +1,11 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table digart_batiment_bat'
+    - builder_table_create_digart_batiment_bat.php
+1.0.3:
+    - 'Created table digart_batiment_app'
+    - builder_table_create_digart_batiment_app.php
+1.0.4:
+    - 'Created table digart_batiment_app_pro'
+    - builder_table_create_digart_batiment_app_pro.php

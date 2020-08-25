@@ -1,0 +1,11 @@
+name: Batiments
+modelClass: Digart\Batiment\Models\Batiment
+form: $/digart/batiment/models/batiment/fields.yaml
+defaultRedirect: digart/batiment/batiments
+create:
+    redirect: 'digart/batiment/batiments/update/:id'
+    redirectClose: digart/batiment/batiments
+update:
+    redirect: digart/batiment/batiments
+    redirectClose: digart/batiment/batiments
+preview: {  }

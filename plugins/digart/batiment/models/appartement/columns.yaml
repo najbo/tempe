@@ -1,0 +1,24 @@
+columns:
+    designation:
+        label: Désignation
+        type: text
+        searchable: true
+        sortable: false
+    batiment:
+        label: Batîment
+        type: text
+        searchable: true
+        sortable: true
+        select: designation
+    proprietaries:
+        label: Propriétaires
+        type: text
+        searchable: false
+        sortable: false
+        relation: proprietaires
+        valueFrom: full_name
+    is_actif:
+        label: Actif
+        type: switch
+        searchable: true
+        sortable: false

@@ -4,3 +4,31 @@ plugin:
     author: Digital-Artisan
     icon: oc-icon-home
     homepage: ''
+permissions:
+    digart.batiment.batiments:
+        tab: 'Gestion des bâtiments'
+        label: 'Gère les bâtiments'
+    digart.batiment.appartements:
+        tab: 'Gestion des bâtiments'
+        label: 'Gère les appartements'
+navigation:
+    gestion-batiment:
+        label: 'Gestion des bâtiments'
+        url: digart/batiment/batiments
+        icon: icon-home
+        permissions:
+            - digart.batiment.batiments
+            - digart.batiment.appartements
+        sideMenu:
+            batiment:
+                label: Bâtiments
+                url: digart/batiment/batiments
+                icon: icon-home
+                permissions:
+                    - digart.batiment.batiments
+            appartements:
+                label: Appartements
+                url: digart/batiment/appartements
+                icon: icon-tag
+                permissions:
+                    - digart.batiment.appartements

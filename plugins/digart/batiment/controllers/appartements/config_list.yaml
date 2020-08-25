@@ -1,0 +1,15 @@
+title: Appartements
+modelClass: Digart\Batiment\Models\Appartement
+list: $/digart/batiment/models/appartement/columns.yaml
+recordUrl: 'digart/batiment/appartements/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+defaultSort:
+    column: sort_order
+    direction: asc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

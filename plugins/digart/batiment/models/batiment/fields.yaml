@@ -1,0 +1,27 @@
+fields:
+    designation:
+        label: Désignation
+        span: auto
+        type: text
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch
+tabs:
+    fields:
+        adresse:
+            label: Adresse
+            span: auto
+            type: text
+            tab: Adresse
+        npa:
+            label: NPA
+            span: left
+            type: text
+            tab: Adresse
+        localite:
+            label: Localité
+            span: auto
+            type: text
+            tab: Adresse

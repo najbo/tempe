@@ -1,0 +1,22 @@
+fields:
+    designation:
+        label: Désignation
+        span: auto
+        type: text
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch
+    batiment:
+        label: Bâtiment
+        nameFrom: designation
+        descriptionFrom: description
+        span: auto
+        type: relation
+    proprietaires:
+        label: Propriétaires
+        nameFrom: full_name
+        descriptionFrom: description
+        span: auto
+        type: relation

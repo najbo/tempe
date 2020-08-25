@@ -11,6 +11,9 @@ permissions:
     digart.batiment.appartements:
         tab: 'Gestion des bâtiments'
         label: 'Gère les appartements'
+    digart.batiment.etages:
+        tab: 'Gestion des bâtiments'
+        label: 'Gère les étages des appartements'
 navigation:
     gestion-batiment:
         label: 'Gestion des bâtiments'
@@ -18,6 +21,7 @@ navigation:
         icon: icon-home
         permissions:
             - digart.batiment.batiments
+            - digart.batiment.etages
             - digart.batiment.appartements
         sideMenu:
             batiment:
@@ -32,3 +36,9 @@ navigation:
                 icon: icon-tag
                 permissions:
                     - digart.batiment.appartements
+            etages:
+                label: Etages
+                url: digart/batiment/etages
+                icon: icon-slack
+                permissions:
+                    - digart.batiment.etages

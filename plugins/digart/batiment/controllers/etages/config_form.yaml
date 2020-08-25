@@ -1,0 +1,11 @@
+name: Etages
+modelClass: Digart\Batiment\Models\Etage
+form: $/digart/batiment/models/etage/fields.yaml
+defaultRedirect: digart/batiment/etages
+create:
+    redirect: 'digart/batiment/etages/update/:id'
+    redirectClose: digart/batiment/etages
+update:
+    redirect: digart/batiment/etages
+    redirectClose: digart/batiment/etages
+preview: {  }

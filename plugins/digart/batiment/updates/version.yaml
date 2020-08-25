@@ -9,3 +9,9 @@
 1.0.4:
     - 'Created table digart_batiment_app_pro'
     - builder_table_create_digart_batiment_app_pro.php
+1.0.5:
+    - 'Created table digart_batiment_etages'
+    - builder_table_create_digart_batiment_etages.php
+1.0.6:
+    - 'Seed étages'
+    - seeder106.php

@@ -1,0 +1,11 @@
+name: Parcelles
+modelClass: Digart\Batiment\Models\Parcelle
+form: $/digart/batiment/models/parcelle/fields.yaml
+defaultRedirect: digart/batiment/parcelles
+create:
+    redirect: 'digart/batiment/parcelles/update/:id'
+    redirectClose: digart/batiment/parcelles
+update:
+    redirect: digart/batiment/parcelles
+    redirectClose: digart/batiment/parcelles
+preview: {  }

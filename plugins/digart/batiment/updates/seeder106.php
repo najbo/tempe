@@ -7,7 +7,6 @@ class Seeder106 extends Seeder
 {
     public function run()
     {
-        
         Etage::truncate();
         
         Etage::create([

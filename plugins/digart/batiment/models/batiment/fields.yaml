@@ -8,6 +8,12 @@ fields:
         span: auto
         default: 1
         type: switch
+    parcelle:
+        label: Parcelle
+        span: auto
+        nameFrom: numero
+        descriptionFrom: description
+        type: relation
 tabs:
     fields:
         adresse:

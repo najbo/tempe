@@ -1,0 +1,18 @@
+fields:
+    designation:
+        label: Text
+        span: auto
+        type: text
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch
+tabs:
+    fields:
+        objectif:
+            label: Objectif
+            size: large
+            span: full
+            type: textarea
+            tab: Objectif

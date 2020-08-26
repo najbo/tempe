@@ -15,3 +15,27 @@
 1.0.6:
     - 'Seed étages'
     - seeder106.php
+1.0.7:
+    - 'Seed batiments'
+    - seeder107.php
+1.0.8:
+    - 'Created table digart_batiment_parcelles'
+    - builder_table_create_digart_batiment_parcelles.php
+1.0.9:
+    - 'Seed parcelles'
+    - seeder109.php
+1.0.10:
+    - 'Seed appartements'
+    - seeder1010.php
+1.0.11:
+    - 'Created table digart_batiment_projets'
+    - builder_table_create_digart_batiment_projets.php
+1.0.12:
+    - 'Seed projets'
+    - seeder1012.php
+1.0.13:
+    - 'Created table digart_batiment_tiers'
+    - builder_table_create_digart_batiment_tiers.php
+1.0.14:
+    - 'Seed tiers'
+    - seeder1014.php

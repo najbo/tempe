@@ -1,0 +1,11 @@
+name: Projets
+modelClass: Digart\Batiment\Models\Projet
+form: $/digart/batiment/models/projet/fields.yaml
+defaultRedirect: digart/batiment/projets
+create:
+    redirect: 'digart/batiment/projets/update/:id'
+    redirectClose: digart/batiment/projets
+update:
+    redirect: digart/batiment/projets
+    redirectClose: digart/batiment/projets
+preview: {  }

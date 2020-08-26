@@ -1,0 +1,5 @@
+title: Parcelles
+modelClass: Digart\Batiment\Models\Parcelle
+nameFrom: numero
+toolbar:
+    buttons: reorder_toolbar

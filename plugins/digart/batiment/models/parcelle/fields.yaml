@@ -1,0 +1,50 @@
+fields:
+    numero:
+        label: 'Numéro de parcelle'
+        span: auto
+        type: text
+    designation:
+        label: Désignation
+        span: auto
+        type: text
+    egrid:
+        label: 'Numéro e-grid'
+        span: auto
+        type: text
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch
+tabs:
+    fields:
+        surface_totale:
+            label: 'Surface totale'
+            span: auto
+            type: number
+            commentAbove: 'En mètres carrés'
+            tab: Surfaces
+        surface_batiments:
+            label: 'Surface bâtiments'
+            span: auto
+            type: number
+            commentAbove: 'En mètres carrés'
+            tab: Surfaces
+        surface_verte:
+            label: 'Surface verte'
+            span: auto
+            type: number
+            commentAbove: 'En mètres carrés'
+            tab: Surfaces
+        surface_dur:
+            label: 'Surface en dur'
+            span: auto
+            type: number
+            commentAbove: 'En mètres carrés'
+            tab: Surfaces
+        complement:
+            label: 'Complément d''informations'
+            size: large
+            span: full
+            type: textarea
+            tab: Textes

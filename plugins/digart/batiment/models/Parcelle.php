@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Batiment extends Model
+class Parcelle extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\Sortable;
@@ -13,20 +13,23 @@ class Batiment extends Model
 
     protected $dates = ['deleted_at'];
 
+    public $attachOne = [
+        'extrait_cadastre' => ['System\Models\File', 'public' => false],
+    ];
+
+    public $attachMany = [
+        'documents' => ['System\Models\File', 'public' => false],
+    ];
 
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'digart_batiment_bat';
+    public $table = 'digart_batiment_parcelles';
 
     /**
      * @var array Validation rules
      */
     public $rules = [
-        'designation' => 'required'
+        'numero' => 'required'
     ];
-
-    public $belongsTo = [
-        'parcelle' => ['Digart\Batiment\Models\Parcelle'],               
-    ];    
 }

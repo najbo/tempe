@@ -24,3 +24,10 @@ columns:
         type: switch
         searchable: true
         sortable: false
+    parcelle:
+        label: Parcelle
+        type: text
+        searchable: true
+        sortable: false
+        select: numero
+        relation: parcelle

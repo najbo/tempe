@@ -14,6 +14,15 @@ permissions:
     digart.batiment.etages:
         tab: 'Gestion des bâtiments'
         label: 'Gère les étages des appartements'
+    digart.batiment.parcelles:
+        tab: 'Gestion des bâtiments'
+        label: 'Gère les différentes parcelles'
+    digart.batiment.projets:
+        tab: 'Gestion des projets'
+        label: 'Gère les projets'
+    digart.batiment.tiers:
+        tab: 'Gestion des tiers'
+        label: 'Gère les tiers'
 navigation:
     gestion-batiment:
         label: 'Gestion des bâtiments'
@@ -23,6 +32,7 @@ navigation:
             - digart.batiment.batiments
             - digart.batiment.etages
             - digart.batiment.appartements
+            - digart.batiment.parcelles
         sideMenu:
             batiment:
                 label: Bâtiments
@@ -42,3 +52,35 @@ navigation:
                 icon: icon-slack
                 permissions:
                     - digart.batiment.etages
+            parcelles:
+                label: Parcelles
+                url: digart/batiment/parcelles
+                icon: icon-map-marker
+                permissions:
+                    - digart.batiment.parcelles
+    projets:
+        label: Projets
+        url: digart/batiment/projets
+        icon: icon-glass
+        permissions:
+            - digart.batiment.projets
+        sideMenu:
+            projets:
+                label: Projets
+                url: digart/batiment/projets
+                icon: icon-glass
+                permissions:
+                    - digart.batiment.projets
+    Tiers:
+        label: Tiers
+        url: digart/batiment/tiers
+        icon: icon-users
+        permissions:
+            - digart.batiment.tiers
+        sideMenu:
+            tiers:
+                label: Tiers
+                url: digart/batiment/tiers
+                icon: icon-users
+                permissions:
+                    - digart.batiment.tiers

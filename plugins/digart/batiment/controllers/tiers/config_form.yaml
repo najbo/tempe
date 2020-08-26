@@ -1,0 +1,11 @@
+name: Tiers
+modelClass: Digart\Batiment\Models\Tiers
+form: $/digart/batiment/models/tiers/fields.yaml
+defaultRedirect: digart/batiment/tiers
+create:
+    redirect: 'digart/batiment/tiers/update/:id'
+    redirectClose: digart/batiment/tiers
+update:
+    redirect: digart/batiment/tiers
+    redirectClose: digart/batiment/tiers
+preview: {  }

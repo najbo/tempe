@@ -1,5 +1,5 @@
 fields:
-    designation:
+    name:
         label: Désignation
         span: auto
         type: text

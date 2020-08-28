@@ -12,10 +12,10 @@ class BuilderTableCreateDigartBatimentApp extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
             $table->string('numero', 20)->nullable();
-            $table->string('designation', 255);
+            $table->string('name', 255);
             $table->string('appartement_type', 255)->nullable();
             $table->string('orientation', 255)->nullable();
-            $table->text('complement')->nullable();
+            $table->text('description')->nullable();
             $table->integer('batiment_id')->nullable()->unsigned();
             $table->integer('quote_part')->nullable()->unsigned();
             #$table->integer('proprietaire_id')->nullable();

@@ -10,7 +10,7 @@ class Seeder107 extends Seeder
         Batiment::truncate();
         
         Batiment::create([
-            'designation' => 'Tempé 18',
+            'name' => 'Tempé 18',
             'surface_batiment' => 376,
             'adresse' => 'Rue du Tempé 18',
             'npa' => '2520',
@@ -20,7 +20,7 @@ class Seeder107 extends Seeder
         ]); 
 
         Batiment::create([
-            'designation' => 'Tempé 18a',
+            'name' => 'Tempé 18a',
             'surface_batiment' => 23,
             'adresse' => 'Rue du Tempé 18a',
             'npa' => '2520',

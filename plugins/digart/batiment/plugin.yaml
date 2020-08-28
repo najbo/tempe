@@ -23,6 +23,9 @@ permissions:
     digart.batiment.tiers:
         tab: 'Gestion des tiers'
         label: 'Gère les tiers'
+    digart.batiment.tiers_types:
+        tab: 'Gestion des tiers'
+        label: 'Gère les type de tiers'
 navigation:
     gestion-batiment:
         label: 'Gestion des bâtiments'
@@ -77,6 +80,7 @@ navigation:
         icon: icon-users
         permissions:
             - digart.batiment.tiers
+            - digart.batiment.tiers_types
         sideMenu:
             tiers:
                 label: Tiers
@@ -84,3 +88,9 @@ navigation:
                 icon: icon-users
                 permissions:
                     - digart.batiment.tiers
+            tiers-types:
+                label: 'Type de tiers'
+                url: digart/batiment/tierstypes
+                icon: icon-tags
+                permissions:
+                    - digart.batiment.tiers_types

@@ -1,11 +1,10 @@
-columns:
+fields:
     name:
         label: Désignation
+        span: auto
         type: text
-        searchable: true
-        sortable: true
     is_actif:
         label: Actif
+        span: auto
+        default: 1
         type: switch
-        searchable: true
-        sortable: true

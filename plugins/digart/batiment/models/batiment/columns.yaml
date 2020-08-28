@@ -1,5 +1,5 @@
 columns:
-    designation:
+    name:
         label: Désignation
         type: text
         searchable: true

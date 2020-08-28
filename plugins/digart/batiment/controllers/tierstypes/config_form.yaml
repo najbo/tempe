@@ -1,0 +1,11 @@
+name: 'Types de tiers'
+modelClass: Digart\Batiment\Models\TiersType
+form: $/digart/batiment/models/tierstype/fields.yaml
+defaultRedirect: digart/batiment/tierstypes
+create:
+    redirect: 'digart/batiment/tierstypes/update/:id'
+    redirectClose: digart/batiment/tierstypes
+update:
+    redirect: digart/batiment/tierstypes
+    redirectClose: digart/batiment/tierstypes
+preview: {  }

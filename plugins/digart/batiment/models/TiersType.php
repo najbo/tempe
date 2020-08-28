@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Batiment extends Model
+class TiersType extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\Sortable;
@@ -17,7 +17,7 @@ class Batiment extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'digart_batiment_bat';
+    public $table = 'digart_batiment_tiers_types';
 
     /**
      * @var array Validation rules
@@ -26,7 +26,4 @@ class Batiment extends Model
         'name' => 'required'
     ];
 
-    public $belongsTo = [
-        'parcelle' => ['Digart\Batiment\Models\Parcelle'],               
-    ];    
 }

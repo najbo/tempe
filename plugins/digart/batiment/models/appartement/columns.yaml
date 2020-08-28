@@ -4,7 +4,7 @@ columns:
         type: text
         searchable: true
         sortable: false    
-    designation:
+    name:
         label: Désignation
         type: text
         searchable: true
@@ -14,7 +14,7 @@ columns:
         type: text
         searchable: true
         sortable: false
-        select: designation
+        select: name
     proprietaries:
         label: Propriétaires
         type: text

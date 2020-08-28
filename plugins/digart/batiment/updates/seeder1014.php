@@ -10,7 +10,7 @@ class Seeder1014 extends Seeder
         Tiers::truncate();
         
         Tiers::create([
-            'designation' => 'BV Toitures SA',
+            'name' => 'BV Toitures SA',
             'branche' => 'Toiture & ferblanterie',
         ]); 
     }

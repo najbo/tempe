@@ -11,7 +11,7 @@ class BuilderTableCreateDigartBatimentBat extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('designation', 255);
+            $table->string('name', 255);
             $table->string('adresse', 255)->nullable();
             $table->string('npa', 10)->nullable();
             $table->string('localite', 100)->nullable();

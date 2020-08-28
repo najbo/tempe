@@ -1,5 +1,5 @@
 fields:
-    designation:
+    name:
         label: 'Raison sociale'
         span: auto
         type: text
@@ -12,3 +12,67 @@ fields:
         label: 'Complément / domaine d''activité'
         span: auto
         type: text
+    types:
+        label: 'Types de tiers'
+        mode: relation
+        separator: comma
+        customTags: 0
+        nameFrom: name
+        span: auto
+        type: taglist
+tabs:
+    icons:
+        Interlocuteurs: icon-users
+    fields:
+        adresse:
+            label: Adresse
+            span: auto
+            type: text
+            tab: Coordonnées
+        npa:
+            label: NPA
+            span: storm
+            cssClass: col-sm-3
+            type: text
+            tab: Coordonnées
+        localite:
+            label: Localité
+            span: storm
+            cssClass: col-sm-3
+            type: text
+            tab: Coordonnées
+        telephone_principal:
+            label: 'Téléphone principal'
+            span: auto
+            type: text
+            tab: Coordonnées
+        telephone_mobile:
+            label: 'Téléphone mobile'
+            span: auto
+            type: text
+            tab: Coordonnées
+        interlocuteurs:
+            label: Interlocuteurs
+            prompt: 'Ajoute un nouvel interlocuteur'
+            span: full
+            type: repeater
+            tab: Interlocuteurs
+            form:
+                fields:
+                    nom:
+                        label: Nom
+                        span: auto
+                        required: 1
+                        type: text
+                    prenom:
+                        label: Prénom
+                        span: auto
+                        type: text
+                    fonction:
+                        label: Fonction
+                        span: auto
+                        type: text
+                    telephone_mobile:
+                        label: 'Téléphone mobile'
+                        span: auto
+                        type: text

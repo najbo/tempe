@@ -45,3 +45,9 @@
 1.0.16:
     - 'Created table digart_batiment_tiers_types'
     - builder_table_create_digart_batiment_tiers_types.php
+1.0.17:
+    - 'Seed types de tiers'
+    - seeder1017.php
+1.0.18:
+    - 'Created table digart_batiment_tiers_types_pivot'
+    - builder_table_create_digart_batiment_tiers_types_pivot.php

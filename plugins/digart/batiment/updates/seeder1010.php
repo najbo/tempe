@@ -10,7 +10,7 @@ class Seeder1010 extends Seeder
         Appartement::truncate();
         
         Appartement::create([
-            'designation' => 'Appartement de Jan & Marilyne',
+            'name' => 'Appartement de Jan & Marilyne',
             'numero' => '254-4',
             'appartement_type' => 'Appart. 4 chambres',
             'orientation' => '2e étage, Sud-Est',
@@ -19,7 +19,7 @@ class Seeder1010 extends Seeder
         ]); 
 
         Appartement::create([
-            'designation' => 'Appartement de Claude & Nelly',
+            'name' => 'Appartement de Claude & Nelly',
             'numero' => '254-3',
             'appartement_type' => 'Appart. 6 chambres',
             'orientation' => '2e étage, Nord',
@@ -28,7 +28,7 @@ class Seeder1010 extends Seeder
         ]);         
 
         Appartement::create([
-            'designation' => 'Appartement de Yolande',
+            'name' => 'Appartement de Yolande',
             'numero' => '254-2',
             'appartement_type' => 'Appart. 4 chambres',
             'orientation' => '1e étage, Ouest',
@@ -37,7 +37,7 @@ class Seeder1010 extends Seeder
         ]);            
 
         Appartement::create([
-            'designation' => 'Appartement de Claude & Sandra',
+            'name' => 'Appartement de Claude & Sandra',
             'numero' => '254-1',
             'appartement_type' => 'Appart. 8 chambres',
             'orientation' => '1e étage, Ouest',

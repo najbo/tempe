@@ -1,5 +1,5 @@
 title: Appartements
 modelClass: Digart\Batiment\Models\Appartement
-nameFrom: designation
+nameFrom: name
 toolbar:
     buttons: reorder_toolbar

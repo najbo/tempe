@@ -1,5 +1,5 @@
 title: Batiments
 modelClass: Digart\Batiment\Models\Batiment
-nameFrom: designation
+nameFrom: name
 toolbar:
     buttons: reorder_toolbar

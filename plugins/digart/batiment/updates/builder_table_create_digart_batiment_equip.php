@@ -11,8 +11,8 @@ class BuilderTableCreateDigartBatimentEquip extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('designation');
-            $table->text('complement')->nullable();
+            $table->string('name');
+            $table->text('description')->nullable();
             $table->string('numero', 20)->nullable();
             $table->integer('categorie_id')->nullable()->unsigned();
             $table->integer('piece_id')->nullable()->unsigned();
@@ -22,7 +22,7 @@ class BuilderTableCreateDigartBatimentEquip extends Migration
             $table->date('fin')->nullable();
             $table->integer('fournisseur_id')->nullable()->unsigned();
             $table->integer('service_id')->nullable()->unsigned();
-            $table->boolean('is_actif')->nullable();
+            $table->boolean('is_actif')->nullable()->default(1);
         });
     }
     

@@ -3,7 +3,7 @@ fields:
         label: 'Numéro de parcelle'
         span: auto
         type: text
-    designation:
+    name:
         label: Désignation
         span: auto
         type: text
@@ -42,7 +42,7 @@ tabs:
             type: number
             commentAbove: 'En mètres carrés'
             tab: Surfaces
-        complement:
+        description:
             label: 'Complément d''informations'
             size: large
             span: full

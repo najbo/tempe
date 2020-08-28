@@ -10,28 +10,28 @@ class Seeder106 extends Seeder
         Etage::truncate();
         
         Etage::create([
-            'designation' => 'Sous-sol / cave',
+            'name' => 'Sous-sol / cave',
             'level' => -1,
         ]); 
         
         Etage::create([
-            'designation' => 'Rez-de-chaussée',
+            'name' => 'Rez-de-chaussée',
             'level' => '0',
         ]); 
         
         Etage::create([
-            'designation' => '1er étage',
+            'name' => '1er étage',
             'level' => '1',
         ]); 
         
         
         Etage::create([
-            'designation' => '2e étage',
+            'name' => '2e étage',
             'level' => '2',
         ]); 
                     
         Etage::create([
-            'designation' => '3e étage',
+            'name' => '3e étage',
             'level' => '3',
         ]); 
         

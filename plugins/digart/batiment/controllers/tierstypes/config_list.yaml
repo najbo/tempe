@@ -1,14 +1,14 @@
-title: Tiers
-modelClass: Digart\Batiment\Models\Tiers
-list: $/digart/batiment/models/tiers/columns.yaml
-recordUrl: 'digart/batiment/tiers/update/:id'
+title: 'Types de tiers'
+modelClass: Digart\Batiment\Models\TiersType
+list: $/digart/batiment/models/tierstype/columns.yaml
+recordUrl: 'digart/batiment/tierstypes/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20
 showSetup: true
 showCheckboxes: true
 defaultSort:
-    column: name
-    direction: ''
+    column: sort_order
+    direction: asc
 toolbar:
     buttons: list_toolbar
     search:

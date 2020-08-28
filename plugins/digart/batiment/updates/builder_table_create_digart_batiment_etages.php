@@ -11,7 +11,7 @@ class BuilderTableCreateDigartBatimentEtages extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('designation', 255);
+            $table->string('name', 255);
             $table->integer('sort_order')->nullable()->unsigned();
             $table->integer('level')->nullable();
             $table->boolean('is_actif')->nullable()->default(1);

@@ -1,5 +1,5 @@
 fields:
-    designation:
+    name:
         label: Désignation
         span: auto
         type: text
@@ -10,7 +10,7 @@ fields:
         type: switch
     batiment:
         label: Bâtiment
-        nameFrom: designation
+        nameFrom: name
         descriptionFrom: description
         span: auto
         type: relation

@@ -13,9 +13,9 @@ class BuilderTableCreateDigartBatimentParcelles extends Migration
             $table->increments('id')->unsigned();
             $table->string('numero',20)->nullable();
             $table->string('egrid',20)->nullable();
-            $table->string('designation')->nullable();
+            $table->string('name')->nullable();
             $table->string('localite', 255);
-            $table->text('complement')->nullable();
+            $table->text('description')->nullable();
             $table->boolean('is_actif')->nullable()->default(1);
             $table->integer('sort_order')->nullable();
             $table->integer('surface_totale')->nullable();

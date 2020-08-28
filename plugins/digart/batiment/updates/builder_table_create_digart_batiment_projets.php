@@ -11,7 +11,7 @@ class BuilderTableCreateDigartBatimentProjets extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('designation', 255);
+            $table->string('name', 255);
             $table->text('objectif')->nullable();
             $table->date('debut')->nullable();
             $table->date('fin')->nullable();

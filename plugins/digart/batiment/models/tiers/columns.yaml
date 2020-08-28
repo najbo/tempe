@@ -1,6 +1,13 @@
 columns:
-    designation:
+    name:
         label: Désignation
         type: text
         searchable: true
         sortable: true
+    tiers_types:
+        label: Types
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: types

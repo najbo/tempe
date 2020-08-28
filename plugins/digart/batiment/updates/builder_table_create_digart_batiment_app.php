@@ -13,7 +13,7 @@ class BuilderTableCreateDigartBatimentApp extends Migration
             $table->increments('id')->unsigned();
             $table->string('numero', 20)->nullable();
             $table->string('designation', 255);
-            $table->string('designation_type', 255)->nullable();
+            $table->string('appartement_type', 255)->nullable();
             $table->string('orientation', 255)->nullable();
             $table->text('complement')->nullable();
             $table->integer('batiment_id')->nullable()->unsigned();

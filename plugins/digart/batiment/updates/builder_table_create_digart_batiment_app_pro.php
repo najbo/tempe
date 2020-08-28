@@ -15,7 +15,7 @@ class BuilderTableCreateDigartBatimentAppPro extends Migration
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
             $table->timestamp('deleted_at')->nullable();
-            $table->primary(['appartement_id','proprietaire_id']);
+            $table->primary(['appartement_id','proprietaire_id'], 'appartement_proprietaire');
         });
     }
     

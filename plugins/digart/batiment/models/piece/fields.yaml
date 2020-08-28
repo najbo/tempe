@@ -1,0 +1,29 @@
+fields:
+    name:
+        label: 'Désignation de la pièce'
+        span: auto
+        type: text
+    etage:
+        label: Etage
+        nameFrom: name
+        descriptionFrom: description
+        emptyOption: '-- Non défini --'
+        span: auto
+        type: relation
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch
+    emplacement:
+        label: Emplacement
+        span: auto
+        type: balloon-selector
+        nameFrom: name
+tabs:
+    fields:
+        surface:
+            label: 'Surface au sol'
+            span: auto
+            type: number
+            tab: Informations

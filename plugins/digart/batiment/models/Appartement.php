@@ -41,5 +41,11 @@ class Appartement extends Model
             'order' => 'last_name'],           
     ];  
 
+    public $hasMany = [
+         'pieces' => ['DigArt\Batiment\Models\Piece', 
+            'key' => 'appartement_id', 
+            'order' => 'id',
+            'softDelete' => true],          
+    ];  
 
 }    

@@ -1,0 +1,11 @@
+pieces:
+    label: Pièces
+    emptyMessage: Aucune pièce pour le moment
+    view:
+        list: $/digart/batiment/models/piece/columns.yaml
+        toolbarButtons: create|delete
+        showSearch: true
+    manage:
+        form: $/digart/batiment/models/piece/fields.yaml
+        title : Gestion des pièces
+        showSearch: true   

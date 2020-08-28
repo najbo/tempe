@@ -1,0 +1,11 @@
+name: Equipements
+modelClass: Digart\Batiment\Models\Equipement
+form: $/digart/batiment/models/equipement/fields.yaml
+defaultRedirect: digart/batiment/equipements
+create:
+    redirect: 'digart/batiment/equipements/update/:id'
+    redirectClose: digart/batiment/equipements
+update:
+    redirect: digart/batiment/equipements
+    redirectClose: digart/batiment/equipements
+preview: {  }

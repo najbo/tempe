@@ -26,6 +26,15 @@ permissions:
     digart.batiment.tiers_types:
         tab: 'Gestion des tiers'
         label: 'Gère les type de tiers'
+    digart.batiment.equipements:
+        tab: 'Gestion des équipements'
+        label: 'Gère les différents équipements'
+    digart.batiment.pieces:
+        tab: 'Gestion des bâtiments'
+        label: 'Gère les pièces d''un appartement'
+    digart.batiment.locaux-communs:
+        tab: 'Gestion des bâtiments'
+        label: 'Gère les locaux communs (pièces)'
 navigation:
     gestion-batiment:
         label: 'Gestion des bâtiments'
@@ -36,6 +45,7 @@ navigation:
             - digart.batiment.etages
             - digart.batiment.appartements
             - digart.batiment.parcelles
+            - digart.batiment.locaux-communs
         sideMenu:
             batiment:
                 label: Bâtiments
@@ -61,6 +71,12 @@ navigation:
                 icon: icon-map-marker
                 permissions:
                     - digart.batiment.parcelles
+            locaux-communs:
+                label: 'Locaux communs'
+                url: digart/batiment/locauxcommuns
+                icon: icon-square-o
+                permissions:
+                    - digart.batiment.locaux-communs
     projets:
         label: Projets
         url: digart/batiment/projets
@@ -94,3 +110,16 @@ navigation:
                 icon: icon-tags
                 permissions:
                     - digart.batiment.tiers_types
+    equipements:
+        label: Equipements
+        url: digart/batiment/equipements
+        icon: icon-codepen
+        permissions:
+            - digart.batiment.equipements
+        sideMenu:
+            equipements:
+                label: Equipements
+                url: digart/batiment/equipements
+                icon: icon-codepen
+                permissions:
+                    - digart.batiment.equipements

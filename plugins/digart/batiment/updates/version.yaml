@@ -51,3 +51,15 @@
 1.0.18:
     - 'Created table digart_batiment_tiers_types_pivot'
     - builder_table_create_digart_batiment_tiers_types_pivot.php
+1.0.19:
+    - 'Seed équipements'
+    - seeder1019.php
+1.0.20:
+    - 'Created table digart_batiment_pieces'
+    - builder_table_create_digart_batiment_pieces.php
+1.0.21:
+    - 'Created table digart_batiment_emplacements'
+    - builder_table_create_digart_batiment_emplacements.php
+1.0.22:
+    - 'Seed emplacements'
+    - seeder1022.php

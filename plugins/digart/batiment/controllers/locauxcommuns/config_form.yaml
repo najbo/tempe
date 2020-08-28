@@ -1,0 +1,11 @@
+name: 'Locaux communs'
+modelClass: Digart\Batiment\Models\Piece
+form: $/digart/batiment/models/piece/fields.yaml
+defaultRedirect: digart/batiment/locauxcommuns
+create:
+    redirect: 'digart/batiment/locauxcommuns/update/:id'
+    redirectClose: digart/batiment/locauxcommuns
+update:
+    redirect: digart/batiment/locauxcommuns
+    redirectClose: digart/batiment/locauxcommuns
+preview: {  }

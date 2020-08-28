@@ -1,0 +1,22 @@
+fields:
+    name:
+        label: Désignation
+        span: auto
+        type: text
+    numero:
+        label: 'Numéro d''équipement'
+        span: auto
+        type: text
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch
+tabs:
+    fields:
+        description:
+            label: 'Description de l''équipement'
+            size: large
+            span: full
+            type: textarea
+            tab: Informations

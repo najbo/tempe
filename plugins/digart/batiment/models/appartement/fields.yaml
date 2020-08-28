@@ -20,3 +20,20 @@ fields:
         descriptionFrom: description
         span: auto
         type: relation
+tabs:
+    fields:
+        hint_representations:
+            span: full
+            path: $/digart/batiment/models/appartement/_hint_onglets.htm
+            context:
+                - create
+            type: hint
+            tab: Pièces
+        representations:
+            span: full
+            path: field_pieces
+            context:
+                - update
+                - preview
+            type: partial
+            tab: Pièces

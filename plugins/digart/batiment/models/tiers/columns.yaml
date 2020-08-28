@@ -4,6 +4,16 @@ columns:
         type: text
         searchable: true
         sortable: true
+    branche:
+        label: Branche
+        type: text
+        searchable: true
+        sortable: true
+    localite:
+        label: Localité
+        type: text
+        searchable: true
+        sortable: true
     tiers_types:
         label: Types
         type: text
@@ -11,3 +21,10 @@ columns:
         sortable: true
         select: name
         relation: types
+    tiers_secteurs:
+        label: Secteurs
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: secteurs

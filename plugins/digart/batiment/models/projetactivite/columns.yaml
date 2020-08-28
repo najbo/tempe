@@ -4,15 +4,13 @@ columns:
         type: text
         searchable: true
         sortable: true
-    auteur:
-        label: Auteur
-        type: text
+    debut:
+        label: 'Débuté le'
+        type: date
         searchable: true
         sortable: true
-        select: 'concat(first_name, '' '', last_name)'
-        relation: auteur
-    is_finished:
-        label: 'Projet terminé'
-        type: switch
+    fin:
+        label: 'Terminé le'
+        type: date
         searchable: true
         sortable: true

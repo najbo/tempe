@@ -1,0 +1,13 @@
+columns:
+    name:
+        label: 'Secteur / corps de métier'
+        type: text
+        searchable: true
+        sortable: true
+    tiers:
+        label: 'Tiers concerné'
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: tiers

@@ -35,6 +35,15 @@ permissions:
     digart.batiment.locaux-communs:
         tab: 'Gestion des bâtiments'
         label: 'Gère les locaux communs (pièces)'
+    digart.batiment.projets.activites:
+        tab: 'Gestion des projets'
+        label: 'Gère les activités des projets'
+    digart.batiment.projets.intervenants:
+        tab: 'Gestion des projets'
+        label: 'Gère les intervenant d''un projet'
+    digart.batiment.tiers.secteurs:
+        tab: 'Gestion des tiers'
+        label: 'Gère les secteurs de tiers'
 navigation:
     gestion-batiment:
         label: 'Gestion des bâtiments'
@@ -97,6 +106,7 @@ navigation:
         permissions:
             - digart.batiment.tiers
             - digart.batiment.tiers_types
+            - digart.batiment.tiers.secteurs
         sideMenu:
             tiers:
                 label: Tiers
@@ -110,6 +120,12 @@ navigation:
                 icon: icon-tags
                 permissions:
                     - digart.batiment.tiers_types
+            secteurs:
+                label: 'Secteurs des tiers'
+                url: digart/batiment/tierssecteurs
+                icon: icon-wrench
+                permissions:
+                    - digart.batiment.tiers.secteurs
     equipements:
         label: Equipements
         url: digart/batiment/equipements

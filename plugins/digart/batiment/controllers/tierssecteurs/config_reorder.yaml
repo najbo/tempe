@@ -1,0 +1,5 @@
+title: 'Secteurs des tiers'
+modelClass: Digart\Batiment\Models\TiersSecteur
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

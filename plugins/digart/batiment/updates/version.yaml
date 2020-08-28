@@ -63,3 +63,18 @@
 1.0.22:
     - 'Seed emplacements'
     - seeder1022.php
+1.0.23:
+    - 'Created table digart_batiment_projets_activites'
+    - builder_table_create_digart_batiment_projets_activites.php
+1.0.24:
+    - 'Created table digart_batiment_projets_intervenants'
+    - builder_table_create_digart_batiment_projets_intervenants.php
+1.0.25:
+    - 'Created table digart_batiment_tiers_secteurs'
+    - builder_table_create_digart_batiment_tiers_secteurs.php
+1.0.26:
+    - 'Seed secteurs des tiers'
+    - seeder1026.php
+1.0.27:
+    - 'Created table digart_batiment_tiers_secteurs_pivot'
+    - builder_table_create_digart_batiment_tiers_secteurs_pivot.php

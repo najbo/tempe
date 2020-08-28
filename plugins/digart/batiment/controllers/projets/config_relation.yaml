@@ -1,0 +1,23 @@
+activites:
+    label: Activités
+    emptyMessage: Aucune activité pour le moment
+    view:
+        list: $/digart/batiment/models/projetactivite/columns.yaml
+        toolbarButtons: create|delete
+        showSearch: true
+    manage:
+        form: $/digart/batiment/models/projetactivite/fields.yaml
+        title : Gestion des activités
+        showSearch: true   
+
+intervenants:
+    label: Intervenants
+    emptyMessage: Aucun intervenant pour le moment
+    view:
+        list: $/digart/batiment/models/projetintervenant/columns.yaml
+        toolbarButtons: create|delete
+        showSearch: true
+    manage:
+        form: $/digart/batiment/models/projetintervenant/fields.yaml
+        title : Gestion des intervenants
+        showSearch: true           

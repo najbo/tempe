@@ -14,6 +14,8 @@ class BuilderTableCreateDigartBatimentParcelles extends Migration
             $table->string('numero',20)->nullable();
             $table->string('egrid',20)->nullable();
             $table->string('name')->nullable();
+            $table->boolean('is_proprietaire_externe')->nullable();
+            $table->string('proprietaire_externe')->nullable();
             $table->string('localite', 255);
             $table->text('description')->nullable();
             $table->boolean('is_actif')->nullable()->default(1);

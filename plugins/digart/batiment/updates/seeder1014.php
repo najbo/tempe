@@ -13,5 +13,10 @@ class Seeder1014 extends Seeder
             'name' => 'BV Toitures SA',
             'branche' => 'Toiture & ferblanterie',
         ]); 
+
+        Tiers::create([
+            'name' => 'Schwab System SA',
+            'branche' => 'Entreprise générale',
+        ]);         
     }
 }

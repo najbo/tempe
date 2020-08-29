@@ -78,3 +78,9 @@
 1.0.27:
     - 'Created table digart_batiment_tiers_secteurs_pivot'
     - builder_table_create_digart_batiment_tiers_secteurs_pivot.php
+1.0.28:
+    - 'Seed pièces'
+    - seeder1028.php
+1.0.29:
+    - 'Created table digart_batiment_equip_pieces_pivot'
+    - builder_table_create_digart_batiment_equip_pieces_pivot.php

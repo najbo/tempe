@@ -9,3 +9,10 @@ columns:
         type: switch
         searchable: true
         sortable: true
+    emplacement:
+        label: Emplacement
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: emplacement

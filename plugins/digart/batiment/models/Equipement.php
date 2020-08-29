@@ -26,5 +26,26 @@ class Equipement extends Model
         'name' => 'required',
     ];
 
-    
+ 
+    public $belongsTo = [                        
+        'responsable' => ['Backend\Models\User',
+                   'order' => 'last_name'],                    
+    ];
+
+
+    public $belongsToMany = [
+        'pieces' => [
+            'Digart\Batiment\Models\Piece',
+            'table' => 'digart_batiment_equip_pieces_pivot',
+            'key' => 'equipement_id',
+            'otherKey' => 'piece_id',
+            'order' => 'name'],           
+    ];  
+
+
+    public function getLesPiecesOptions($value, $formData)
+    {
+        return Piece::pluck('name', 'id');
+    }
+
 }

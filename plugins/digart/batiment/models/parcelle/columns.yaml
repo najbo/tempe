@@ -9,6 +9,11 @@ columns:
         type: text
         searchable: true
         sortable: false
+    proprietaire_externe:
+        label: Proprietaire externe
+        type: text
+        searchable: true
+        sortable: false        
     is_actif:
         label: Actif
         type: switch

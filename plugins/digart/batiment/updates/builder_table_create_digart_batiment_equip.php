@@ -23,6 +23,7 @@ class BuilderTableCreateDigartBatimentEquip extends Migration
             $table->date('fin')->nullable();
             $table->integer('fournisseur_id')->nullable()->unsigned();
             $table->integer('service_id')->nullable()->unsigned();
+            $table->integer('responsable_id')->nullable()->unsigned();
             $table->boolean('is_actif')->nullable()->default(1);
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();

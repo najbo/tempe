@@ -10,7 +10,7 @@ class Seeder1012 extends Seeder
         Projet::truncate();
         
         Projet::create([
-            'name' => 'Agrandissement appartement JB aux combles',
+            'name' => 'Agrandissement appartement JB & MB aux combles',
             'debut' => '2020-03-01',
         ]); 
 

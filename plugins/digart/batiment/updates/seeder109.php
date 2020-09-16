@@ -22,9 +22,11 @@ class Seeder109 extends Seeder
 
         Parcelle::create([
             'numero' => '21',
-            'name' => 'Place de parc devant Tempé 18 (municipalité)',
+            'name' => 'Place de parc devant Tempé 18',
             'localite' => 'La Neuveville',
             'egrid' => 'CH924249463515',
+            'proprietaire_externe' => 'Municipalité de La Neuveville',
+            'is_proprietaire_externe' => 1,
             'surface_totale' => 25,
             'surface_dur' => 25,
         ]);         
@@ -32,9 +34,11 @@ class Seeder109 extends Seeder
 
         Parcelle::create([
             'numero' => '1760',
-            'name' => 'Place pour moto (C. Zesiger)',
+            'name' => 'Place pour moto',
             'localite' => 'La Neuveville',
             'egrid' => 'CH964246356710',
+            'proprietaire_externe' => 'Christophe Zesiger',
+            'is_proprietaire_externe' => 1,
             'surface_totale' => 14,
             'surface_dur' => 14,
         ]);          

@@ -13,6 +13,7 @@ class Piece extends Model
 
     protected $dates = ['deleted_at'];
 
+    protected $appends = ['is_admin'];
 
     /**
      * @var string The database table used by the model.
@@ -29,10 +30,8 @@ class Piece extends Model
 
     public $belongsTo = [
         'etage' => ['DigArt\Batiment\Models\Etage',
-                   'key' => 'etage_id',
                    'order' => 'sort_order'],                             
         'emplacement' => ['DigArt\Batiment\Models\Emplacement',
-                   'key' => 'emplacement_id',
                    'order' => 'sort_order'],                    
     ];
 
@@ -40,4 +39,10 @@ class Piece extends Model
     {
         return Emplacement::actif()->pluck('name', 'id');
     }    
+
+    // pour test :
+    public function getIsAdminAttribute()
+    {
+        return $this->attributes['is_actif'] == 'yes';
+    }
 }

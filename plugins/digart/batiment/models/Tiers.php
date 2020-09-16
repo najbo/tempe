@@ -33,6 +33,7 @@ class Tiers extends Model
             'table' => 'digart_batiment_tiers_types_pivot',
             'key' => 'tiers_id',
             'otherKey' => 'type_id',
+<<<<<<< HEAD
             'order' => 'sort_order'],           
         'branches' => [
             'DigArt\Batiment\Models\TiersBranche',
@@ -40,6 +41,15 @@ class Tiers extends Model
             'key' => 'tiers_id',
             'otherKey' => 'branche_id',
             'order' => 'sort_order'],               
+=======
+            'order' => 'sort_order'],
+        'secteurs' => [
+            'DigArt\Batiment\Models\TiersSecteur',
+            'table' => 'digart_batiment_tiers_secteurs_pivot',
+            'key' => 'tiers_id',
+            'otherKey' => 'secteur_id',
+            'order' => 'sort_order'],                       
+>>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
     ]; 
 
 }

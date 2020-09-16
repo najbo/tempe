@@ -9,8 +9,22 @@ columns:
         type: text
         searchable: true
         sortable: true
+    responsable:
+        label: Responsable
+        type: text
+        searchable: true
+        sortable: true
+        select: 'concat(first_name,'' '' , last_name)'
+        relation: responsable
     is_actif:
         label: Actif
         type: switch
         searchable: true
         sortable: true
+    pieces:
+        label: Pièces
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: pieces

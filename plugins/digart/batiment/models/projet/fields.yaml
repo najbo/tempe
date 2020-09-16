@@ -3,10 +3,17 @@ fields:
         label: Text
         span: auto
         type: text
-    is_actif:
-        label: Actif
+    auteur:
+        label: Auteur
         span: auto
-        default: 1
+        nameFrom: full_name
+        descriptionFrom: description
+        type: relation
+        emptyOption: '-- Non relevant ou autre --'
+        defaultFrom: administrateur_actuel
+    is_finished:
+        label: 'Projet terminé'
+        span: auto
         type: switch
 tabs:
     fields:
@@ -16,3 +23,33 @@ tabs:
             span: full
             type: textarea
             tab: Objectif
+        hint_activites:
+            span: full
+            path: $/digart/batiment/models/projet/_hint_onglets.htm
+            context:
+                - create
+            type: hint
+            tab: Activités
+        activites:
+            span: full
+            path: field_activites
+            context:
+                - update
+                - preview
+            type: partial
+            tab: Activités
+        hint_intervenants:
+            span: full
+            path: $/digart/batiment/models/projet/_hint_onglets.htm
+            context:
+                - create
+            type: hint
+            tab: Intervenants
+        intervenants:
+            span: full
+            path: field_intervenants
+            context:
+                - update
+                - preview
+            type: partial
+            tab: Intervenants

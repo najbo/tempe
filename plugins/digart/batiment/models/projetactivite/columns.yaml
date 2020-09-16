@@ -4,15 +4,13 @@ columns:
         type: text
         searchable: true
         sortable: true
-    is_actif:
-        label: Actif
-        type: switch
+    debut:
+        label: 'Débuté le'
+        type: date
         searchable: true
         sortable: true
-    emplacement:
-        label: Emplacement
-        type: text
+    fin:
+        label: 'Terminé le'
+        type: date
         searchable: true
         sortable: true
-        select: name
-        relation: emplacement

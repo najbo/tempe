@@ -1,0 +1,54 @@
+fields:
+    name:
+        label: 'Secteur / corps de métier concernés'
+        span: auto
+        type: text
+    tiers:
+        label: Tiers
+        nameFrom: name
+        descriptionFrom: branche
+        prompt: 'Cliquez sur %s pour ajouter un tiers'
+        list: $/digart/batiment/models/tierstype/columns.yaml
+        span: auto
+        type: recordfinder
+tabs:
+    fields:
+        description:
+            label: Description
+            size: large
+            span: full
+            type: textarea
+            tab: Informations
+        interlocuteurs:
+            label: Interlocuteurs
+            span: full
+            prompt: 'Ajouter un nouvel intervenant'
+            type: repeater
+            tab: Interlocuteurs
+            form:
+                fields:
+                    nom:
+                        label: Nom
+                        span: auto
+                        required: 1
+                        type: text
+                    prenom:
+                        label: Prénom
+                        span: auto
+                        type: text
+                    fonction:
+                        label: Fonction
+                        span: auto
+                        type: text
+                    telephone_mobile:
+                        label: 'Téléphone mobile'
+                        span: auto
+                        type: text
+                    is_chef_projet:
+                        label: 'Chef de projet'
+                        options:
+                            - Oui
+                            - Non
+                        span: auto
+                        default: '0'
+                        type: balloon-selector

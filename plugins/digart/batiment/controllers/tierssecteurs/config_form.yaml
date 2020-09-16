@@ -1,0 +1,11 @@
+name: 'Secteurs des tiers'
+modelClass: Digart\Batiment\Models\TiersSecteur
+form: $/digart/batiment/models/tierssecteur/fields.yaml
+defaultRedirect: digart/batiment/tierssecteurs
+create:
+    redirect: 'digart/batiment/tierssecteurs/update/:id'
+    redirectClose: digart/batiment/tierssecteurs
+update:
+    redirect: digart/batiment/tierssecteurs
+    redirectClose: digart/batiment/tierssecteurs
+preview: {  }

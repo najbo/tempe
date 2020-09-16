@@ -64,6 +64,7 @@
     - 'Seed emplacements'
     - seeder1022.php
 1.0.23:
+<<<<<<< HEAD
     - 'Created table digart_batiment_tiers_branches'
     - builder_table_create_digart_batiment_tiers_branches.php
 1.0.24:
@@ -75,3 +76,25 @@
 1.0.26:
     - 'Created table digart_batiment_loc'
     - builder_table_create_digart_batiment_loc.php
+=======
+    - 'Created table digart_batiment_projets_activites'
+    - builder_table_create_digart_batiment_projets_activites.php
+1.0.24:
+    - 'Created table digart_batiment_projets_intervenants'
+    - builder_table_create_digart_batiment_projets_intervenants.php
+1.0.25:
+    - 'Created table digart_batiment_tiers_secteurs'
+    - builder_table_create_digart_batiment_tiers_secteurs.php
+1.0.26:
+    - 'Seed secteurs des tiers'
+    - seeder1026.php
+1.0.27:
+    - 'Created table digart_batiment_tiers_secteurs_pivot'
+    - builder_table_create_digart_batiment_tiers_secteurs_pivot.php
+1.0.28:
+    - 'Seed pièces'
+    - seeder1028.php
+1.0.29:
+    - 'Created table digart_batiment_equip_pieces_pivot'
+    - builder_table_create_digart_batiment_equip_pieces_pivot.php
+>>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28

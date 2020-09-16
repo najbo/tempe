@@ -1,0 +1,23 @@
+fields:
+    name:
+        label: Désignation
+        span: auto
+        type: text
+    debut:
+        label: 'Débuté le'
+        mode: date
+        span: left
+        type: datepicker
+    fin:
+        label: 'Terminé le'
+        mode: date
+        span: auto
+        type: datepicker
+tabs:
+    fields:
+        description:
+            label: Description
+            span: full
+            size: large
+            type: textarea
+            tab: Informations

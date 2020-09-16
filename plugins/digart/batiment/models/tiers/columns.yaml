@@ -21,19 +21,16 @@ columns:
         sortable: true
         select: name
         relation: types
-<<<<<<< HEAD
     tiers_branches:
         label: Branches
-=======
+        searchable: true
+        sortable: true
+        select: name
+        relation: branches
     tiers_secteurs:
         label: Secteurs
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
         type: text
         searchable: true
         sortable: true
         select: name
-<<<<<<< HEAD
-        relation: branches
-=======
         relation: secteurs
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28

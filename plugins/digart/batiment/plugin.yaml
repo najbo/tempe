@@ -35,11 +35,9 @@ permissions:
     digart.batiment.locaux-communs:
         tab: 'Gestion des bâtiments'
         label: 'Gère les locaux communs (pièces)'
-<<<<<<< HEAD
-    digart.batiment.tiers_tiers_branches:
+    digart.batiment.tiers.branches:
         tab: 'Gestion des tiers'
         label: 'Gère les branches des tiers'
-=======
     digart.batiment.projets.activites:
         tab: 'Gestion des projets'
         label: 'Gère les activités des projets'
@@ -49,7 +47,6 @@ permissions:
     digart.batiment.tiers.secteurs:
         tab: 'Gestion des tiers'
         label: 'Gère les secteurs de tiers'
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
 navigation:
     gestion-batiment:
         label: Bâtiments
@@ -112,11 +109,8 @@ navigation:
         permissions:
             - digart.batiment.tiers
             - digart.batiment.tiers_types
-<<<<<<< HEAD
-            - digart.batiment.tiers_tiers_branches
-=======
+            - digart.batiment.tiers.branches
             - digart.batiment.tiers.secteurs
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
         sideMenu:
             tiers:
                 label: Tiers
@@ -130,21 +124,18 @@ navigation:
                 icon: icon-tags
                 permissions:
                     - digart.batiment.tiers_types
-<<<<<<< HEAD
             tiers-branches:
                 label: 'Branches des tiers'
                 url: digart/batiment/tiersbranches
                 icon: icon-stethoscope
                 permissions:
-                    - digart.batiment.tiers_tiers_branches
-=======
+                    - digart.batiment.tiers_branches
             secteurs:
                 label: 'Secteurs des tiers'
                 url: digart/batiment/tierssecteurs
                 icon: icon-wrench
                 permissions:
                     - digart.batiment.tiers.secteurs
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
     equipements:
         label: Equipements
         url: digart/batiment/equipements

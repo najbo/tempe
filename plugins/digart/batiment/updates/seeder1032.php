@@ -3,7 +3,7 @@
 use Seeder;
 use Digart\Batiment\Models\TiersBranche;
 
-class Seeder1025 extends Seeder
+class Seeder1032 extends Seeder
 {
     public function run()
     {

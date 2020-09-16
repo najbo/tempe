@@ -15,32 +15,19 @@ fields:
         nameFrom: name
         span: auto
         type: taglist
-<<<<<<< HEAD
-    branches:
-        label: 'Branches professionnelles'
-=======
     secteurs:
         label: 'Secteurs d''activités'
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
         mode: relation
         separator: comma
         customTags: 0
         nameFrom: name
         span: auto
-<<<<<<< HEAD
         type: taglist        
-=======
-        type: taglist
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
     is_actif:
         label: Actif
         span: auto
         default: 1
-<<<<<<< HEAD
         type: switch        
-=======
-        type: switch
->>>>>>> 9bf40eed90eb0d60eedad9c53e52cb2b9c2dad28
 tabs:
     fields:
         adresse:

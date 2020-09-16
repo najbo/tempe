@@ -12,7 +12,7 @@ class TiersBranches extends Controller
     public $reorderConfig = 'config_reorder.yaml';
 
     public $requiredPermissions = [
-        'digart.batiment.tiers_tiers_branches' 
+        'digart.batiment.tiers.branches' 
     ];
 
     public function __construct()

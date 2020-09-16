@@ -3,7 +3,7 @@ columns:
         label: Numéro
         type: text
         searchable: true
-        sortable: false    
+        sortable: false
     name:
         label: Désignation
         type: text
@@ -15,6 +15,7 @@ columns:
         searchable: true
         sortable: false
         select: name
+        relation: batiment
     proprietaries:
         label: Propriétaires
         type: text

@@ -1,0 +1,9 @@
+fields:
+    first_name:
+        label: Prénom
+        span: auto
+        type: text
+    last_name:
+        label: 'Nom de famille'
+        span: auto
+        type: text

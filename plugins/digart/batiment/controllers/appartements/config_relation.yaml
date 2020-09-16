@@ -8,4 +8,16 @@ pieces:
     manage:
         form: $/digart/batiment/models/piece/fields.yaml
         title : Gestion des pièces
-        showSearch: true   
+        showSearch: true  
+
+locataires:
+    label: Locataires
+    emptyMessage: Aucun locataire
+    view:
+        list: $/digart/batiment/models/appartementlocataire/columns.yaml
+        toolbarButtons: create|delete
+        showSearch: true
+    manage:
+        form: $/digart/batiment/models/appartementlocataire/fields.yaml
+        title : Gestion des locataires
+        showSearch: true           

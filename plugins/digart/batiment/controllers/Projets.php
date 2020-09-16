@@ -17,6 +17,6 @@ class Projets extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Digart.Batiment', 'projets', 'projets');
+        BackendMenu::setContext('Digart.Batiment', 'activites', 'projets');
     }
 }

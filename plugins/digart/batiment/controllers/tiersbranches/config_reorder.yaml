@@ -1,0 +1,5 @@
+title: 'Branches des tiers'
+modelClass: Digart\Batiment\Models\TiersBranche
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

@@ -46,6 +46,10 @@ class Appartement extends Model
             'key' => 'appartement_id', 
             'order' => 'id',
             'softDelete' => true],          
+         'locataires' => ['DigArt\Batiment\Models\AppartementLocataire', 
+            'key' => 'appartement_id', 
+            'order' => 'id',
+            'softDelete' => true],             
     ];  
 
 }    

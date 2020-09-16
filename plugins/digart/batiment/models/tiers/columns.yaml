@@ -11,3 +11,10 @@ columns:
         sortable: true
         select: name
         relation: types
+    tiers_branches:
+        label: Branches
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: branches

@@ -35,9 +35,12 @@ permissions:
     digart.batiment.locaux-communs:
         tab: 'Gestion des bâtiments'
         label: 'Gère les locaux communs (pièces)'
+    digart.batiment.tiers_tiers_branches:
+        tab: 'Gestion des tiers'
+        label: 'Gère les branches des tiers'
 navigation:
     gestion-batiment:
-        label: 'Gestion des bâtiments'
+        label: Bâtiments
         url: digart/batiment/batiments
         icon: icon-home
         permissions:
@@ -77,8 +80,8 @@ navigation:
                 icon: icon-square-o
                 permissions:
                     - digart.batiment.locaux-communs
-    projets:
-        label: Projets
+    activites:
+        label: Activités
         url: digart/batiment/projets
         icon: icon-glass
         permissions:
@@ -97,6 +100,7 @@ navigation:
         permissions:
             - digart.batiment.tiers
             - digart.batiment.tiers_types
+            - digart.batiment.tiers_tiers_branches
         sideMenu:
             tiers:
                 label: Tiers
@@ -110,6 +114,12 @@ navigation:
                 icon: icon-tags
                 permissions:
                     - digart.batiment.tiers_types
+            tiers-branches:
+                label: 'Branches des tiers'
+                url: digart/batiment/tiersbranches
+                icon: icon-stethoscope
+                permissions:
+                    - digart.batiment.tiers_tiers_branches
     equipements:
         label: Equipements
         url: digart/batiment/equipements

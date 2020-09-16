@@ -3,11 +3,6 @@ fields:
         label: 'Raison sociale'
         span: auto
         type: text
-    is_actif:
-        label: Actif
-        span: auto
-        default: 1
-        type: switch
     branche:
         label: 'Complément / domaine d''activité'
         span: auto
@@ -20,6 +15,19 @@ fields:
         nameFrom: name
         span: auto
         type: taglist
+    branches:
+        label: 'Branches professionnelles'
+        mode: relation
+        separator: comma
+        customTags: 0
+        nameFrom: name
+        span: auto
+        type: taglist        
+    is_actif:
+        label: Actif
+        span: auto
+        default: 1
+        type: switch        
 tabs:
     icons:
         Interlocuteurs: icon-users

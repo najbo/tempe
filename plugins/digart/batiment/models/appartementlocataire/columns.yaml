@@ -1,0 +1,11 @@
+columns:
+    last_name:
+        label: 'Nom de famille'
+        type: text
+        searchable: true
+        sortable: true
+    first_name:
+        label: Prénom
+        type: text
+        searchable: true
+        sortable: true

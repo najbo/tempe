@@ -14,22 +14,16 @@ fields:
         descriptionFrom: description
         span: auto
         type: relation
-    proprietaires:
-        label: Propriétaires
-        nameFrom: full_name
-        descriptionFrom: description
-        span: auto
-        type: relation
 tabs:
     fields:
-        hint_representations:
+        hint_pieces:
             span: full
             path: $/digart/batiment/models/appartement/_hint_onglets.htm
             context:
                 - create
             type: hint
             tab: Pièces
-        representations:
+        pieces:
             span: full
             path: field_pieces
             context:
@@ -37,3 +31,46 @@ tabs:
                 - preview
             type: partial
             tab: Pièces
+        description:
+            label: Description
+            size: large
+            span: full
+            type: richeditor
+            tab: Description
+        surface:
+            label: 'Surface en m2'
+            span: auto
+            type: number
+            tab: Caractéristiques
+        pieces:
+            label: 'Nombre de pièces'
+            span: auto
+            type: number
+            tab: Caractéristiques
+        quote_part:
+            label: 'Quote-part en ppm'
+            span: auto
+            type: number
+            tab: Caractéristiques
+        proprietaires:
+            label: 'Propriétaires / droits d''accès'
+            nameFrom: full_name
+            descriptionFrom: description
+            span: full
+            type: relation
+            tab: Propriétaires
+        hint_locataires:
+            span: full
+            path: $/digart/batiment/models/appartement/_hint_onglets.htm
+            context:
+                - create
+            type: hint
+            tab: Locataires
+        locataires:
+            span: full
+            path: field_locataires
+            context:
+                - update
+                - preview
+            type: partial
+            tab: Locataires

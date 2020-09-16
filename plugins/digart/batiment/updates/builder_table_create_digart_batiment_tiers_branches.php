@@ -3,24 +3,16 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateDigartBatimentApp extends Migration
+class BuilderTableCreateDigartBatimentTiersBranches extends Migration
 {
     public function up()
     {
-        Schema::create('digart_batiment_app', function($table)
+        Schema::create('digart_batiment_tiers_branche', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('numero', 20)->nullable();
             $table->string('name', 255);
-            $table->string('appartement_type', 255)->nullable();
-            $table->string('orientation', 255)->nullable();
             $table->text('description')->nullable();
-            $table->integer('batiment_id')->nullable()->unsigned();
-            $table->integer('quote_part')->nullable()->unsigned();
-            $table->integer('surface')->nullable()->unsigned();
-            $table->integer('pieces')->nullable()->unsigned();
-            #$table->integer('proprietaire_id')->nullable();
             $table->integer('sort_order')->nullable()->unsigned();
             $table->boolean('is_actif')->nullable()->default(1);
             $table->timestamp('created_at')->nullable();
@@ -31,6 +23,6 @@ class BuilderTableCreateDigartBatimentApp extends Migration
     
     public function down()
     {
-        Schema::dropIfExists('digart_batiment_app');
+        Schema::dropIfExists('digart_batiment_tiers_branche');
     }
 }

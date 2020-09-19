@@ -16,7 +16,7 @@ fields:
         span: auto
         type: taglist
     secteurs:
-        label: 'Secteurs d''activités'
+        label: 'Secteurs d''activités / branches'
         mode: relation
         separator: comma
         customTags: 0

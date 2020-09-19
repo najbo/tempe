@@ -21,14 +21,8 @@ columns:
         sortable: true
         select: name
         relation: types
-    tiers_branches:
-        label: Branches
-        searchable: true
-        sortable: true
-        select: name
-        relation: branches
     tiers_secteurs:
-        label: Secteurs
+        label: 'Secteurs / branches'
         type: text
         searchable: true
         sortable: true

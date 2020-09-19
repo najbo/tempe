@@ -23,7 +23,7 @@ tabs:
                 - create
             type: hint
             tab: Pièces
-        pieces:
+        partial_pieces:
             span: full
             path: field_pieces
             context:

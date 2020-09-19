@@ -8,7 +8,7 @@ showSetup: true
 showCheckboxes: true
 defaultSort:
     column: name
-    direction: ''
+    direction: asc
 toolbar:
     buttons: list_toolbar
     search:

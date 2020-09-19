@@ -85,14 +85,5 @@
     - 'Created table digart_batiment_equip_pieces_pivot'
     - builder_table_create_digart_batiment_equip_pieces_pivot.php
 1.0.30:
-    - 'Created table digart_batiment_tiers_branches'
-    - builder_table_create_digart_batiment_tiers_branches.php
-1.0.31:
-    - 'Created table digart_batiment_tiers_branches_pivot'
-    - builder_table_create_digart_batiment_tiers_branches_pivot.php
-1.0.32:
-    - 'Seed branche des tiers'
-    - seeder1032.php
-1.0.33:
     - 'Created table digart_batiment_loc'
     - builder_table_create_digart_batiment_loc.php
